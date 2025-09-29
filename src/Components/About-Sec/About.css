@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.About-Cont {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(1,10,28);
+  position: relative;
+}
+
+.h-1 {
+  color: #0099FF;
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card-1 {
+  background-color: transparent;
+  margin: 20px auto;
+  border: 1px solid #FDFEFF;
+  height: 49vh;
+  width: 9vw;
+  position: absolute;
+  top: 38%;
+  left: 83%;
+  border-radius: 8px;
+}
+
+.card-2 {
+  background-color: #0099FF;
+  height: 65vh;
+  width: 28vw;
+  border-radius: 8px;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  z-index: 1;
+}
+
+.firstcard {
+  position: absolute;
+  top: 30%;
+  left: 23%;
+  color: #FDFEFF;
+  background-color: rgba(19, 57, 132, 0.141);
+  height: 55vh;
+  width: 38vw;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Nunito", sans-serif;
+}
+
+.firstcard .h-3 {
+  margin-bottom: 10px;
+}
+
+.firstcard .p-0,
+.firstcard .p-1 {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
