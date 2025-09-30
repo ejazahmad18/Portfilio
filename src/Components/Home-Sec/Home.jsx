@@ -1,3 +1,4 @@
+import CustomButton from '../CustomButton';
 import './Home.css';
 
 function Home() {
@@ -17,7 +18,8 @@ function Home() {
       <div className='Name-Card'>
         <h2 className='Name-h2'>Hello! I am</h2>
         <p className='Name-p'>Ejaz Ahmad</p>
-        <button className='Name-Btn'>Resume</button>
+        {/* <button className='Name-Btn'>Resume</button> */}
+        <CustomButton className="Name-Btn" text="Resume"/>
         <p className='Name-p1'>
           "I’m a frontend developer passionate about crafting smooth, interactive, 
           and user-friendly web experiences, building responsive interfaces that 
@@ -28,5 +30,6 @@ function Home() {
     </div>
   );
 }
+
 
 export default Home;

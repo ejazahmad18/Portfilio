@@ -11,13 +11,13 @@ function About() {
       <div className='firstcard'>
         <h3 className='h-3'>Who I'm</h3>
         <p className='p-0'>
-          Hello, I'm Ejaz Ahmad, a passionate Frontend Developer specializing in React 
-          and React Native. I create seamless digital experiences with clean, efficient 
+          Hello, I'm Ejaz Ahmad, a passionate Frontend Developer specializing in React
+          and React Native. I create seamless digital experiences with clean, efficient
           code and pixel-perfect designs.
         </p>
         <p className='p-1'>
-          As a Frontend Developer, I focus on building intuitive, responsive, and visually 
-          engaging interfaces. I combine technical skills with creativity to ensure every 
+          As a Frontend Developer, I focus on building intuitive, responsive, and visually
+          engaging interfaces. I combine technical skills with creativity to ensure every
           interaction feels smooth and every design is brought to life with precision.
         </p>
       </div>
@@ -26,3 +26,4 @@ function About() {
 }
 
 export default About;
+ 

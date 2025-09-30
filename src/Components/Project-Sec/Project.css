@@ -1,26 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .Pro-Cont {
   height: 100vh;
-  width: 100%;    /* safe */
+  width: 100%;
   background-color: rgb(1, 10, 28);
   position: relative;
 }
 
-.proj-h1 { position: absolute; top: 12%; left: 50%; transform: translateX(-50%); color: #0099FF; font-size: 1.8rem; }
-
-.proj-card, .proj-card1, .proj-card2, .proj-card3 {
+.proj-h1 {
   position: absolute;
-  height: 32vh;
-  width: 25%;    /* % safer */
-  border-radius: 8px;
-  background-color: rgba(19, 57, 132, 0.141);
-  transition: transform 0.3s ease;
-  cursor: pointer;
-}
-.proj-card, .proj-card1, .proj-card2, .proj-card3:hover {
-  transform: translateY(-8px) scale(1.05);
+  top: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #0099FF;
+  font-size: 1.8rem;
+  
 }
 
-.proj-card { left: 20%; top: 24%; }
-.proj-card1 { left: 55%; top: 24%; }
-.proj-card2 { left: 20%; top: 60%; }
-.proj-card3 { left: 55%; top: 60%; }
+.proj-p {
+  position: absolute;
+  top: 16%;
+  left: 49%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 1.3rem;
+ 
+}
+
+
+
+.proj-card,
+.proj-card1,
+.proj-card2,
+.proj-card3 {
+  position: absolute;
+  height: 35vh;
+  width: 30%;
+  border-radius: 10px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: rgba(19, 57, 132, 0.141);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+ 
+}
+
+.proj-card:hover,
+.proj-card1:hover,
+.proj-card2:hover,
+.proj-card3:hover {
+  transform: scale(1.05);
+}
+
+.proj-card img,
+.proj-card1 img,
+.proj-card2 img,
+.proj-card3 img {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.proj-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+
+
+.proj-popup-content img {
+  width: 50%;
+  margin-left: 30%;
+  border-radius: 8px;
+}
+
+.proj-popup-content button {
+  position: absolute;
+  top: 23%;
+  height: 50px;
+  width: 50px;
+  margin-left: 76%;
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  background-color: #343ca4;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.proj-card {
+  left: 18%;
+  top: 26%;
+}
+
+.proj-card1 {
+  left: 55%;
+  top: 26%;
+}
+
+.proj-card2 {
+  left: 18%;
+  top: 64%;
+}
+
+.proj-card3 {
+  left: 55%;
+  top: 64%;
+}

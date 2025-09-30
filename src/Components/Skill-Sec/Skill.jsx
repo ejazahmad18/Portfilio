@@ -1,4 +1,6 @@
+import { FaCss3Alt, FaGithubSquare, FaGitSquare, FaHtml5, FaReact } from 'react-icons/fa';
 import './Skill.css';
+import { IoLogoJavascript } from 'react-icons/io';
 
 function Skill() {
   return (
@@ -9,12 +11,30 @@ function Skill() {
       </p>
 
       <div className="Skill-grid">
-        <div className="Skill-card1 html">HTML5</div>
-        <div className="Skill-card2 css">CSS</div>
-        <div className="Skill-card3 js">JavaScript</div>
-        <div className="Skill-card4 react">React JS</div>
-        <div className="Skill-card5 git">Git</div>
-        <div className="Skill-card6 github">GitHub</div>
+        <div className="Skill-card1 html">
+          <FaHtml5 className='icon' />
+          <h3>HTML</h3>
+          </div>
+        <div className="Skill-card2 css">
+          <FaCss3Alt className='icon'/>
+          <h3>CSS</h3>
+          </div>
+        <div className="Skill-card3 js">
+          <IoLogoJavascript className='icon' />
+          <h3>JavaScript</h3>
+          </div>
+        <div className="Skill-card4 react">
+          <FaReact className='icon'/>
+          <h3>React</h3>
+          </div>
+        <div className="Skill-card5 git">
+          <FaGitSquare className='icon'/>
+         <h3> Git</h3>
+          </div>
+        <div className="Skill-card6 github">
+          <FaGithubSquare className='icon'/>
+          <h3>GitHub</h3>
+          </div>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@
     color: #fff;
     font-family: "Nunito", sans-serif;
     position: relative;
-   
+  
     padding: 12vh 5% 5% 5%;   /* space for heading */
 }
 
@@ -41,7 +41,7 @@
     top: 20%;
     transform: translateX(-50%);
     width: 3px;
-    height: 100%;
+    height: 73vh;
     background-color: #0099FF;
 }
 
@@ -80,6 +80,7 @@
     justify-content: center;
     align-items: center;
     font-size: 16px;
+     
 }
 
 /* Icon positions: center of vertical line */
@@ -100,12 +101,13 @@
     padding: 15px;
     min-height: 35vh;
     width: 100%;
+     border: 1px solid #1572B6;
 }
 
 /* Headings and text inside content */
 .content-1 h3, .content-2 h3 {
     margin-bottom: 10px;
-    color: #0099FF;
+    color: #fff;
 }
 
 .content-1 p, .content-2 p {
