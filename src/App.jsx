@@ -1,29 +1,33 @@
-import About from "./Components/About-Sec/About"
-import Contact from "./Components/Contact-Sec/Contact"
-import Education from "./Components/Education-Sec/Edu"
-import Footer from "./Components/Footer-Sec/Footer"
-import Home from "./Components/Home-Sec/Home"
-import Navbar from "./Components/Navbar-Sec/Nav"
-import Project from "./Components/Project-Sec/Project"
-import Skill from "./Components/Skill-Sec/Skill"
+import React from "react"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import HomePage from "./Pages/Home/HomePage"
+import AboutPage from "./Pages/About/AboutPage"
+import SkillPage from "./Pages/Skills/SkillPage"
+import EducationPage from "./Pages/Educations/EducationPage"
+import ContactPage from "./Pages/Contact/ContactPage"
+import FooterPage from "./Pages/Footer/FooterPage"
+import ProjectPage from "./Pages/Projects/ProjectPage"
+
 
 
 function App() {
   return (
-    <>
-      <Navbar/>
-      <Home/>
-      <About/>
-      <Skill/>
-      <Project/>
-     <Education/>
-      <Contact/>
-      <Footer/>
-      
-     
-      
-      
-    </>
+    <BrowserRouter>
+      <Routes>
+        
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/skills" element={<SkillPage />} />
+        <Route path="/projects" element={<ProjectPage />} />
+        <Route path="/education" element={<EducationPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/footer" element={<FooterPage />} />
+
+      </Routes>
+
+
+
+    </BrowserRouter>
   )
 }
 

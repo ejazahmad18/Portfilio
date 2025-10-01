@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react";
 import './Project.css';
 
@@ -7,7 +8,7 @@ function Project() {
   console.log(popup,"prit")
 
   return (
-    <div id='Project' className="Pro-Cont">
+    <div  className="Pro-Cont">
       <h1 className='proj-h1'>PROJECT</h1>
       <p className='proj-p'>I have done some projects</p>
 

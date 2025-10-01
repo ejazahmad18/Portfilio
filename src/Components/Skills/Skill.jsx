@@ -1,10 +1,11 @@
+import React from 'react';
 import { FaCss3Alt, FaGithubSquare, FaGitSquare, FaHtml5, FaReact } from 'react-icons/fa';
 import './Skill.css';
 import { IoLogoJavascript } from 'react-icons/io';
 
 function Skill() {
   return (
-    <div id="Skill" className="Skill-Cont">
+    <div  className="Skill-Cont">
       <h1 className="Skill-h1">SKILLS</h1>
       <p className="Skill-p">
         Below are some of the skills I have been developing over the last three years.

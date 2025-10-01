@@ -1,9 +1,10 @@
+import React from 'react';
 import CustomButton from '../CustomButton';
 import './Home.css';
 
 function Home() {
   return (
-    <div id='Home' className="Home-Contnr">
+    <div  className="Home-Contnr">
       {/* Decorative Background Elements */}
       <span className="bg-dot dot1"></span>
       <span className="bg-dot dot2"></span>
