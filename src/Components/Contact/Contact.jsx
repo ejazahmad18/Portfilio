@@ -1,9 +1,10 @@
+import React from 'react';
 import { MdCall, MdLocationOn, MdMail } from 'react-icons/md';
 import './Contact.css';
 
 function Contact() {
     return (
-        <div id='Contact' className="Contact-Cont">
+        <div  className="Contact-Cont">
             <h2 className='cont-h2'>CONTACT ME</h2>
 
             {/* Contact Form */}

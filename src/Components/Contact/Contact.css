@@ -33,6 +33,7 @@
     padding: 20px;
     border-radius: 10px;
     color: #fff;
+     border: 1px solid #1572B6;
 }
 
 .cont-form h3 {
@@ -76,6 +77,7 @@
     padding: 20px;
     border-radius: 10px;
     color: #fff;
+     border: 1px solid #1572B6;
 }
 
 .cont-card h3 {
