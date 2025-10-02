@@ -4,7 +4,7 @@ import './Edut.css';
 
 function Education() {
     return (
-        <div  className="Edu-Cont">
+        <div className="Edu-Cont">
             <h1 className='Edu-h'>EDUCATION</h1>
 
             <div className="timeline">
