@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaBriefcase } from "react-icons/fa";
-import './Edut.css';
+import './Edu.css';
 
 function Education() {
     return (

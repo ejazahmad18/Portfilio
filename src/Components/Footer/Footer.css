@@ -1,4 +1,8 @@
-* { padding:0; margin:0; box-sizing:border-box; }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 footer {
     height: 15vh;
@@ -24,7 +28,12 @@ footer {
 }
 
 /* Responsive */
-@media(max-width:768px){
-    .Footer-h1 { font-size: 1.3rem; }
-    .Footer-p { font-size: 0.95rem; }
+@media(max-width:768px) {
+    .Footer-h1 {
+        font-size: 1.3rem;
+    }
+
+    .Footer-p {
+        font-size: 0.95rem;
+    }
 }

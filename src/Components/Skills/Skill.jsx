@@ -11,11 +11,11 @@ function Skill() {
 
       <div className="Skill-grid">
         <div className="Skill-card html"><FaHtml5 className='icon' /><h3>HTML</h3></div>
-        <div className="Skill-card css"><FaCss3Alt className='icon'/><h3>CSS</h3></div>
+        <div className="Skill-card css"><FaCss3Alt className='icon' /><h3>CSS</h3></div>
         <div className="Skill-card js"><IoLogoJavascript className='icon' /><h3>JavaScript</h3></div>
-        <div className="Skill-card react"><FaReact className='icon'/><h3>React</h3></div>
-        <div className="Skill-card git"><FaGitSquare className='icon'/><h3>Git</h3></div>
-        <div className="Skill-card github"><FaGithubSquare className='icon'/><h3>GitHub</h3></div>
+        <div className="Skill-card react"><FaReact className='icon' /><h3>React</h3></div>
+        <div className="Skill-card git"><FaGitSquare className='icon' /><h3>Git</h3></div>
+        <div className="Skill-card github"><FaGithubSquare className='icon' /><h3>GitHub</h3></div>
       </div>
     </div>
   );
