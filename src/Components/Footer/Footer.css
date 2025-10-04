@@ -3,19 +3,37 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 footer {
     height: 15vh;
     width: 100%;
     background-color: #08122c;
-    color: #ffff;
+    color: #fff;
     text-align: center;
-     font-family: "Nunito", sans-serif;
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
 }
-.Footer-h1{
+
+.Footer-h1 {
     font-size: 1.5rem;
-    padding: 0.8rem;
+    margin-bottom: 0.5rem;
 }
-.Footer-p{
+
+.Footer-p {
     font-size: 1.05rem;
-   
+}
+
+/* Responsive */
+@media(max-width:768px) {
+    .Footer-h1 {
+        font-size: 1.3rem;
+    }
+
+    .Footer-p {
+        font-size: 0.95rem;
+    }
 }

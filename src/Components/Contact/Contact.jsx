@@ -4,7 +4,7 @@ import './Contact.css';
 
 function Contact() {
     return (
-        <div  className="Contact-Cont">
+        <div className="Contact-Cont">
             <h2 className='cont-h2'>CONTACT ME</h2>
 
             {/* Contact Form */}
@@ -39,7 +39,8 @@ function Contact() {
                 </div>
 
                 <div className="info-item">
-                    <MdLocationOn className="icon" /><div>
+                    <MdLocationOn className="icon" />
+                    <div>
                         <span>Address</span>
                         <p>Visit my social profile and get connected</p>
                     </div>
@@ -51,7 +52,6 @@ function Contact() {
                     <button className='frm-btn'>Instagram</button>
                     <button className='frm-btn'>WhatsApp</button>
                 </div>
-
             </div>
         </div>
     );

@@ -1,10 +1,10 @@
 import React from 'react';
 import { FaBriefcase } from "react-icons/fa";
-import './Edut.css';
+import './Edu.css';
 
 function Education() {
     return (
-        <div  className="Edu-Cont">
+        <div className="Edu-Cont">
             <h1 className='Edu-h'>EDUCATION</h1>
 
             <div className="timeline">
