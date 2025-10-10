@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css';
-import Ejaz from "../../Assets/front2.jpg";
 
 function About() {
   return (
@@ -8,9 +7,7 @@ function About() {
       <h1 className='h-1'>ABOUT ME</h1>
 
       <div className='card-1'></div>
-      <div className='card-2'>
-        <img src={Ejaz} alt="ejaz ahmad" className="front-img1" />
-      </div>
+      <div className='card-2'></div>
 
       <div className='firstcard'>
         <h3 className='h-3'>Who I'm</h3>
@@ -30,3 +27,4 @@ function About() {
 }
 
 export default About;
+ 
